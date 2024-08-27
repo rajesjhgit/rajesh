@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul class="nav-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <header id="home" class="hero">
+      <div class="hero-content">
+        <img src="/images/rajesh.jpg" alt="Your Photo" class="profile-photo" />
+        <h1>Hi, I'm Rajesh Kumar Thakur</h1>
+        <p>
+          I'm a Web Developer with a passion for creating beautiful and
+          functional websites. My expertise includes HTML, CSS, JavaScript, and
+          more.
+        </p>
+      </div>
+    </header>
+
+    <section id="about" class="about">
+      <h2>About Me</h2>
+      <p>
+        I am a dedicated web developer with a strong background in front-end
+        technologies. I hold a degree in Computer Science and have worked on
+        various projects that showcase my skills in building dynamic and
+        responsive web applications.
+      </p>
+      <h3>Education</h3>
+      <p>plus2 CapitalCollege And Research Center, 2024</p>
+      <h3>Professional Experience</h3>
+
+      <p>Intern at Prodigy Infotech, 2024</p>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2>Projects</h2>
+      <div class="project-list">
+        <div class="project-item">
+          <h3>Project 1</h3>
+          <p>A brief description of the project and technologies used.</p>
+        </div>
+        <div class="project-item">
+          <h3>Project 2</h3>
+          <p>A brief description of the project and technologies used.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact Me</h2>
+      <p>
+        If you'd like to get in touch, please feel free to email me at
+        <a href="mailto:rajesh123455667@gmail.com">rajesh123455667@gmail.com</a>
+        or use the contact form below.
+      </p>
+      <form
+        action="mailto:your-email@example.com"
+        method="post"
+        enctype="text/plain"
+      >
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <p>&copy; 2024 Rajesh Kumar Thakur. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
